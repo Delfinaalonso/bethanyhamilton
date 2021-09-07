@@ -4,7 +4,6 @@ body{ background-color: #f090c8;
 background-image: url(fondo2.jpg);
 background-repeat: no-repeat;
 background-position:center center ;
-height: 1800px;
 background-attachment: fixed;
 background-size: cover;}
 
@@ -14,6 +13,10 @@ header {
 	height: auto;
     font-family:'oswald' , sans-serif;}
 
+
+    h1{font-size: 40px;}
+
+    h2{font-size: 30px;}
     .encabezado {
         color: #FFF;
         text-shadow: 1px 1px 1px #333;
@@ -21,18 +24,32 @@ header {
         background-color: rgba(255, 255, 255, 0.541);
       }
 
-.cajainformacion {float: right; font-family: 'Oswald', sans-serif; background-color: rgba(255, 255, 255, 0.493);
-     padding: 9px; padding-left: 15px; padding-right: 16%; margin-right: 30%;} 
-.cajainformacion p {font-size: 25px;}   
+.clear {clear: both;}
+
+
 
 .formulario {background-color: rgba(255, 255, 255, 0.452); width: 60%; margin-left: 250px; text-align: center;
     font-family: 'Oswald', sans-serif;}
 
-.formulario div   
+.formulario div  {justify-self: start;} 
 
-.img1 img {width: 90%;}
-.img1 {display: flex; flex-flow: wrap;}
-.img2 img 
-.img2 {display: flex; flex-flow: wrap; margin-left: 50%;}
+
+
+
+.cajainformacion { font-family: 'Oswald', sans-serif; background-color: rgba(255, 255, 255, 0.493);
+    height: fit-content; display: flex; width: 32.3%;
+     } 
+.cajainformacion p {font-size: 25px; width: 30%;}  
+.img1 {float: left; height: fit-content; width: 32.3%;}
+
+
+.img2  {width: 40%; display: flex; margin-top: 25%; 
+    float: right; height: fit-content; width: 33.3%;}
+
+
+
+
+
+.boton input {background-color: pink; border-radius: 5%; border: lightskyblue; width: 10%; height: 11%;}
 
 .footer {background-color: rgba(255, 255, 255, 0.507); text-align: center; padding-top: 2%;}

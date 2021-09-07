@@ -21,24 +21,36 @@
            </div>
           </header>
        <section>
-<div class="cajainformacion">
 
-    <p>LUGAR:Palais Rouge</p>
-    <p>FECHAS:12/10-13/10/14/10</p>
-    <p>HORARIO: 17hs</p>
-    <p>INCLUYE:</p>
-    <p>Lugar Privilegiado</p>
-    <p>Fotografias</p>
-    <p>Firma de autografos</p>
-</div>
+<div class="infoimg">          
+
+    <div class="img1">
+        <img src="IMG1copy.png" alt="i1">
+        </div>
+
+        <div class="cajainformacion">
 
 
-<div class="img1">
-<img src="IMG1copy.png" alt="i1">
-</div>
-<div class="img2">
-<img src="img6.png" alt="i2">
-</div>
+            <p>LUGAR:Palais Rouge</p>
+            <p>FECHAS:12/10-13/10/14/10</p>
+            <p>HORARIO: 17hs</p>
+            <p>INCLUYE:</p>
+            <p>Lugar Privilegiado</p>
+            <p>Fotografias</p>
+            <p>Firma de autografos</p>
+        </div>
+
+   
+
+    <div class="img2">
+    <img src="img6.png" alt="i2">
+    </div>
+
+</div> 
+
+<div class="clear"></div>
+
+
 <div class="formulario">
     <div>
     <h1 class="tituloform">LLENA TUS DATOS Y GANATE UN PASE CON ABSOLUTAMENTE TODO INCLUIDO!!</h1>
@@ -47,19 +59,19 @@
     <form action="mailto:mail@mail.com" method="POST">
 <div>
     <span>Nombre y Apellido </span>
-    <input type="text" name="nombre">
+    <input type="text" name="nombre" required>
     
 </div>
 <div>
     <span>Email</span>
-    <input type="email" name="email">
+    <input type="email" name="email" required>
 </div>
 <div>
     <span>Fecha</span>
-    <input type="date" name="dia">
+    <input type="date" name="dia" required>
 </div>
-<div>
-   <button >Enviar</button>
+<div class="boton">
+   <input type="submit" value="Enviar">
 </div>
 
 </form>
